@@ -1,5 +1,5 @@
-//11650. ÁÂÇ¥ Á¤·ÄÇÏ±â
-
+//11650. ì¢Œí‘œ ì •ë ¬í•˜ê¸° https://www.acmicpc.net/problem/11650
+//Sorting Coordinates using vector, pair, and STL sort().
 
 #include <iostream>
 #include <vector>
