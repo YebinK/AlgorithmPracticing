@@ -12,7 +12,7 @@ int main() {
 	cin >> n;
 
 	for (int i = 0; i < n; i++) {
-		cin >> cmd[i]; //명령어와 숫자 모두 string type
+		cin >> cmd[i];
 		if (cmd[i] == "push") {
 			cin >> push[j];
 			j++;
