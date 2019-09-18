@@ -18,9 +18,9 @@ int main() {
 
 		if (q.size() == 1) break;
 
-		q.pop(); //¹ö¸®±â
+		q.pop(); //ë²„ë¦¬ê¸°
 		
-		int num = q.front(); //µÚ·Î º¸³»±â
+		int num = q.front(); //ë’¤ë¡œ ë³´ë‚´ê¸°
 		q.push(num);
 		q.pop();
 	}
