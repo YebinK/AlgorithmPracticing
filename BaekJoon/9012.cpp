@@ -9,21 +9,21 @@ int main() {
 	string answer;
 
 	cin >> n;
-	
+
 	for (int i = 0; i < n; i++) {
 
 		string tmp;
+		stack<char> s;
+
 		cin >> tmp;
 
-		stack<char> s;
+		if (tmp.size() % 2 == 1) { //non-valid Parenthesis String (PS)
+			answer.append("NO\n");
+			continue;
+		}
 
 		for (int j = 0; j < tmp.size(); j++) { //string to stack
 			s.push(tmp[j]);
-		}
-
-		if (s.size() % 2 == 1) { //non-valid Parenthesis String
-			answer.append("NO\n");
-			continue;
 		}
 
 		int right = 0;
@@ -34,7 +34,7 @@ int main() {
 			if (top == ')') right++;
 			else right--;
 
-			if (right < 0) {
+			if (right < 0) { //when "right" goes to negative, it is non-valid PS
 				answer.append("NO\n");
 				break;
 			}
@@ -50,6 +50,6 @@ int main() {
 	for (int i = 0; i < answer.size(); i++) {
 		cout << answer[i];
 	}
-	
+
 	return 0;
 }
