@@ -1,4 +1,4 @@
-<b> Practicing Algorithms! </b>
+<b><h2> Practicing Algorithms! </h2></b>
 
 To enhance my algorithm skills, I'll keep update this repository.
 
