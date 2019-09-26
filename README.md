@@ -1,4 +1,4 @@
-Practicing Algorithms!
+<b> Practicing Algorithms! <b>
 
 To enhance my algorithm skills, I'll keep update this repository.
 
