@@ -32,7 +32,6 @@ int main() {
 			lim /= 2;
 		else
 			lim = (lim + 1) / 2;
-
 	}
 
 	cout << round;
