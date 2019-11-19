@@ -1,3 +1,5 @@
+// https://www.welcomekakao.com/learn/courses/30/lessons/42888?language=cpp
+
 #include <vector>
 #include <string>
 #include <map>
@@ -26,10 +28,10 @@ int main() {
 		}
 
 		if (cmd == "Enter") {
-			answer.push_back(uid + " ´ÔÀÌ µé¾î¿Ô½À´Ï´Ù.");
+			answer.push_back(uid + " ë‹˜ì´ ë“¤ì–´ì™”ìŠµë‹ˆë‹¤.");
 		}
 		else if (cmd == "Leave") {
-			answer.push_back(uid + " ´ÔÀÌ ³ª°¬½À´Ï´Ù.");
+			answer.push_back(uid + " ë‹˜ì´ ë‚˜ê°”ìŠµë‹ˆë‹¤.");
 		}
 	}
 
